@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const STYLES = ["btn--primary","btn--outline"];
 const SIZES = ["btn--medium","btn--large"];
 
-export const Button = ({childron,type,onClick,ButtonStyle,buttonSize}) =>{
+const Button = ({childron,type,onClick,ButtonStyle,buttonSize}) =>{
     const checkButtonStyle = STYLES.include(ButtonStyle) ? ButtonStyle : STYLES[0];
     
     const checkButtonSize = SIZES.include(buttonSize) ? buttonSize : SIZES[0];
@@ -18,3 +18,5 @@ export const Button = ({childron,type,onClick,ButtonStyle,buttonSize}) =>{
         </Link>
     )
 }
+
+export default Button
