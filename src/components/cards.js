@@ -6,11 +6,13 @@ import "./cards.css"
 function Cards() {
     return (
         <div className="cards">
-            <h1>Lorem ipsum dolor sit amet consectetur ntium ipsum tempora vero.</h1>
+            <h1>Check Out These Epic Destinations</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
-                        <CardItem />
+                        <CardItem src="images/img-9.jpg" text="Explore The Hidden Waterf Deep Inside The Amazon Jungleall"
+                        label="Adventure"
+                        path="/services" />
                     </ul>
                 </div>
             </div>
