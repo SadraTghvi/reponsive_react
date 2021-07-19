@@ -1,7 +1,6 @@
-import React from 'react'
-import CardItem from './cardItem'
-
-import "./cards.css"
+import React from 'react';
+import './Cards.css';
+import CardItem from './CardItem';
 
 function Cards() {
   return (
@@ -43,9 +42,9 @@ function Cards() {
               path='/sign-up'
             />
             <CardItem
-              src='images/img-5.jpg'
-              text='You can Also Rest in out 5 star hotels'
-              label='Holtel'
+              src='images/img-6.jpg'
+              text='Ride through the Sahara Desert on a guided camel tour'
+              label='Mystery'
               path='/sign-up'
             />
           </ul>
@@ -54,4 +53,5 @@ function Cards() {
     </div>
   );
 }
-export default Cards
+
+export default Cards;

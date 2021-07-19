@@ -1,10 +1,6 @@
-import React from 'react'
-import "../../style.css"
+import React from 'react';
+import '../../App.css';
 
-const SignUp = () =>{
-    return(
-        <h1 className='sign-up'>SignUp</h1>
-    )
+export default function SignUp() {
+  return <h1 className='sign-up'>Sign Up</h1>;
 }
-
-export default SignUp

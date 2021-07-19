@@ -1,10 +1,6 @@
-import React from 'react'
-import "../../style.css"
+import React from 'react';
+import '../../App.css';
 
-const Pruducts = () =>{
-    return(
-        <h1 className='products'>Products</h1>
-    )
+export default function Products() {
+  return <h1 className='products'>PRODUCTS</h1>;
 }
-
-export default Pruducts

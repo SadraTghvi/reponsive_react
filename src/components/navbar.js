@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import  Button  from './button';
+import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import './navbar.css';
+import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -19,8 +19,8 @@ function Navbar() {
   };
 
   useEffect(() => {
-      showButton();
-  }, [])
+    showButton();
+  }, []);
 
   window.addEventListener('resize', showButton);
 
@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRAVEL
+            TRVL
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -57,6 +57,16 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Products
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to='/sign-up'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Sign Up
               </Link>
             </li>
           </ul>

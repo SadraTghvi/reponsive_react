@@ -42,22 +42,3 @@
   color: #fff;
   font-size: 100px;
 }
-/* scrollbar */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    display: none;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #111;
-    border-radius: 20px;
-}
-
-/* selection */
-::selection {
-    background: #FFF;
-    color: #000;
-}
